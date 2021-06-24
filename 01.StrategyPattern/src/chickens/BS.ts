@@ -6,4 +6,8 @@ export class BS extends Chicken {
         super(name, price);
         this.method = new Boiled();
     }
+
+    override getTaste = () => {
+        console.log('백숙은 담백한 맛이 일품입니다.');
+    }
 }

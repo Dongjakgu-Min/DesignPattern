@@ -8,10 +8,12 @@ const main = () => {
     bs.getName();
     bs.getPrice();
     bs.getMethod();
+    bs.getTaste();
 
     plk.getName();
     plk.getPrice();
     plk.getMethod();
+    plk.getTaste();
 }
 
 main();
