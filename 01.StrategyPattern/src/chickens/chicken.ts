@@ -1,4 +1,4 @@
-import { CookingMethod } from "./method/cookingMethod";
+import { CookingMethod } from "../method/cookingMethod";
 
 export abstract class Chicken {
     private readonly price: number;

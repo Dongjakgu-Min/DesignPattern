@@ -1,4 +1,4 @@
-import { Chicken } from '../chicken';
+import { Chicken } from './chicken';
 import { Fried } from '../method/Fried';
 
 export class PLK extends Chicken {
